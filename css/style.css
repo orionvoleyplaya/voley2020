@@ -1,0 +1,160 @@
+/* ==========================================
+	Estilos generales para toda la página
+============================================*/
+
+
+
+
+
+
+/* ==========================================
+	Estilos para la barra de redes sociales
+============================================*/
+
+.red{
+
+	border-radius: 3px;
+	position: fixed;
+	top: 185px;
+	z-index: 100;
+	left: 0;
+}
+.red .item{
+	padding: 25px 38px;
+	width: 20px;
+	-transition: all 300ms ease;
+	-webkit-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+}
+.red .item:hover{
+	padding: 25px 45px;
+	background:#02b4b4;
+	margin-bottom:10px;
+	
+	transform:rotate(360deg);
+	
+
+	
+}
+.red .red-facebook{
+	background: #3b5998;
+	border-radius: 100px;
+	margin-bottom:15px;
+	margin-left:25px;
+	-webkit-box-shadow: 0px 10px 12px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 12px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 12px 3px rgba(0,0,0,0.75);
+	
+}
+.red .red-twitter{
+	background: #125688;
+	border-radius: 100px;
+	margin-bottom:15px;
+	margin-left:25px;
+	-webkit-box-shadow: 0px 10px 12px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 12px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 12px 3px rgba(0,0,0,0.75);
+}
+
+.red .red-email{
+	background: #bb0000;
+	border-radius: 100px;
+	margin-bottom:15px;
+	margin-left:25px;
+	-webkit-box-shadow: 0px 10px 12px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 12px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 12px 3px rgba(0,0,0,0.75);
+}
+
+.red .red-whatsapp{
+	background: #4dc247;
+	border-radius: 100px;
+	margin-bottom:15px;
+	margin-left:25px;
+	-webkit-box-shadow: 0px 10px 12px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 12px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 12px 3px rgba(0,0,0,0.75);
+}
+
+/* ==========================================
+	Estilos responsive para la barra de redes sociales
+============================================*/
+
+@media screen and (max-width: 1100px){
+	.red{
+		display:none;
+	}
+}
+
+
+  
+
+.redes{
+
+}
+
+.ek1{
+	padding:10px;
+	background:#3b5998;
+	
+
+	
+}
+
+.ek2{
+	padding:10px;
+	background: #55acee;
+
+}
+
+.ek3{
+	padding:10px;
+	background:#4dc247;
+	
+}
+
+.ek1:hover{
+	background:#3b5898ed;
+	border-radius:1px 10px;
+	-webkit-box-shadow: 0px 0px 9px 6px rgba(0,0,0,0.37);
+	-moz-box-shadow: 0px 0px 9px 6px rgba(0,0,0,0.37);
+	box-shadow: 0px 0px 9px 6px rgba(0,0,0,0.37);
+}
+
+.ek2:hover{
+	background:#55aceee8;
+	border-radius:1px 10px;
+	-webkit-box-shadow: 0px 0px 9px 6px rgba(0,0,0,0.37);
+	-moz-box-shadow: 0px 0px 9px 6px rgba(0,0,0,0.37);
+	box-shadow: 0px 0px 9px 6px rgba(0,0,0,0.37);
+}
+
+.ek3:hover{
+	background:#4dc247ed;
+	border-radius:1px 10px;
+	-webkit-box-shadow: 0px 0px 9px 6px rgba(0,0,0,0.37);
+	-moz-box-shadow: 0px 0px 9px 6px rgba(0,0,0,0.37);
+	box-shadow: 0px 0px 9px 6px rgba(0,0,0,0.37);
+}
+
+@media (max-width:570px){
+	.r-d{
+		position: absolute;
+		bottom: 0px;
+	}
+}
+
+@media (max-width:570px){
+	#dispositivo{
+		background: black;
+	}
+}
+
+
+
+.isa:hover{
+	-webkit-box-shadow: 0px 0px 39px 1px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 39px 1px rgba(255,255,255,1);
+box-shadow: 0px 0px 39px 1px rgba(255,255,255,1);
+}
+
